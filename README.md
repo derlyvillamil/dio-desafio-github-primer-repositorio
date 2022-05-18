@@ -2,7 +2,8 @@
 ## Desafio del proyecto de la Dio
 
 **Repositorio criado para o desafio** 
-**Repositorio creado para desafio de proyecto**
+
+**Repositorio creado para desafio**
 
 Eu fiz esse projeto em espanhol e português para adquirir mais oportunidades com meus repositórios. Conforme ao conteudo, estão as principais etapas que usei para instalar e gerenciar o Git e o Github.
 
