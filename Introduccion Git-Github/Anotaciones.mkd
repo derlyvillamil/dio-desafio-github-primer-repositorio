@@ -1,0 +1,41 @@
+# Que es Git?
+
+Git es una herramienta que realiza una función del control de versiones de código de forma distribuida, que nos permite llevar un registro histórico de todos los cambios realizados en cada uno de los archivos a lo largo del desarrollo de un proyecto. 
+
+Ofrece una gran solución a la hora de trabajar de forma colaborativa como parte de un equipo de desarrollo, permitiendo que cada persona escriba código de forma independiente que puede ser integrado y compartido de manera muy fácil y rápida.
+
+**Descarga Git:** https://git-scm.com/downloads
+
+## Comandos de Git
+
+- **git init** creará un nuevo repositorio local GIT. El siguiente comando de Git creará un repositorio en el directorio actual: git init / git init [nombre del proyecto]
+- **git clone** se usa para copiar un repositorio. Si el repositorio está en un servidor remoto: git clone nombredeusuario@host:/path/to/repository
+- **git add** se usa para agregar archivos al área de preparación: git add <temp.txt>
+- **git commit** creará una instantánea de los cambios y la guardará en el directorio git: git commit -m "mensaje-comentario"
+- **git config** puede ser usado para establecer una configuración específica de usuario, como el email, nombre de usuario: git config --global user.email derlyvillamil@gmail.com
+- **git status** muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados: git status
+- **git push** se usa para enviar confirmaciones locales a la rama maestra del repositorio remoto: git push origin main
+- **git pull** fusiona todos los cambios que se han hecho en el repositorio remoto con el directorio de trabajo local: git pull
+
+## Que es GitHub
+
+GitHub es una plataforma web que nos permite alojar código fuente de forma gratuita en la nube. Funciona como una red social donde se pueden compartir proyectos con la idea de que otros usuarios colaboren con el desarrollo.
+
+**Crear repositorio:** Lo primero que se debe hacer es crear una cuenta de usuario ingresando al siguiente enlace
+
+https://github.com/
+
+Configurar las variables globales de git en local, como nombre de usuario:
+
+$ git config --global user.name "derlyvillamil"
+
+$ git config --global user.email "derlyvillamil@gmail.com"
+
+Una vez hecho esto podemos proceder a nuestro primer repositorio. Desde la barra de navegación hacemos click en enlace “New repository”
+
+En el siguiente formulario especificamos los detalles del proyecto y es recomendable siempre incluir el archivo readme.md desde el inicio donde se escribirán las instrucciones de instalación
+
+Para **Clonar** debemos copiar el Code y usarlos en Git, por medio de Git Bash. 
+
+Creamos un directorio que contendrá el código del proyecto y nos posicionamos dentro de él.
+
